@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход / Регистрация</title>
+    <link id="theme-style" rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="form-title">Вход</h1>
+
+        <div id="login-form">
+            <input type="text" id="username" placeholder="Логин" required>
+            <input type="password" id="password" placeholder="Пароль" required>
+            <button id="login-btn">Войти</button>
+            <button id="register-btn">Зарегистрироваться</button>
+        </div>
+
+        
+        <div id="register-form" style="display:none;">
+            <input type="text" id="new-username" placeholder="Логин" required>
+            <input type="password" id="new-password" placeholder="Пароль" required>
+            <button id="submit-register-btn">Зарегистрироваться</button>
+            <button id="cancel-register-btn">Отмена</button>
+        </div>
+
+        <div id="message-box"></div>
+
+        <button id="theme-toggle-btn">Переключить тему</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
