@@ -1,4 +1,4 @@
-npm clone  https://github.com/atikinvobud/front6 для клонирования репозитория
+git clone  https://github.com/atikinvobud/front6 для клонирования репозитория
 cd front6для перехода в папку
 для запуска надо прописать npm start
 открывается форма авторизации сначала надо зарегестрироваться потом войти 
